@@ -46,7 +46,7 @@ for i in x:
 derivation_coefficient = [float(i) for i in derivation_coefficient ]    
 
 # In[]  "-----Monte Carlo -----"
-lty = np.linspace (0.1 , 1 , 10)
+lty = np.linspace (0.1 , 1 , 10) # Quality requirement in degree 
 nmct = len(lty)
 Result_list = list ()
 for iter in range(nmct):
